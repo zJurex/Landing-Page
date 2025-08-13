@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>New Gadget - Auriculares</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="banner">
+    <picture>
+      <source media="(max-width: 768px)" srcset="images/phone.png" />
+      <img src="images/new.png" usemap="#mapa"/>
+    </picture>
+    <map name="mapa">
+      <area shape="rect" coords="180,660,330,710" href="#news" alt="Comprar">
+    </map>
+  </header>
+
+  <section class="producto fade-in">
+    <img src="images/auri.png" alt="Auriculares modelo Auri" class="img-prod">
+    <p class="desc-prod">Nuevos Auriculares! Modernos con alta duracion y resistencia. Ideal para entrenamientos de larga duracion</p>
+  </section>
+
+  <main>
+    <section class="cuenta fade-in" id="cuenta">
+      <h2>¡Lanzamiento en:</h2>
+      <div class="tiempo">
+        <span id="dias">00</span>D :
+        <span id="horas">00</span>H :
+        <span id="min">00</span>M :
+        <span id="seg">00</span>S
+      </div>
+    </section>
+
+    <section class="faq-section fade-in" id="faq">
+      <h2>Preguntas Frecuentes</h2>
+      <div class="faq">
+        <button class="faq-q">¿Cuánto dura la batería?</button>
+        <div class="faq-a"><p>Hasta 10 horas de uso continuo.</p></div>
+
+        <button class="faq-q">¿Tienen garantía?</button>
+        <div class="faq-a"><p>Sí, contamos con 1 año contra defectos de fábrica.</p></div>
+
+        <button class="faq-q">¿Son resistentes al agua?</button>
+        <div class="faq-a"><p>Alta resistencia, ideales para entrenamientos.</p></div>
+      </div>
+    </section>
+
+    <section class="newsletter fade-in" id="news">
+      <h2>¡Recibí novedades y descuentos!</h2>
+      <iframe 
+        width="540" 
+        height="305" 
+        src="https://329c6de1.sibforms.com/serve/MUIFAFa1H1rglVbPrt663Os0cHGFRn7jKZFKdlFe8qkDC6ymwia8g2_uD8FjoNIcYv93TXj0tDT1COCatcKoZ7flPxJXvb9PDJc401gvtRsAewZiPo7OtNpLi3ba1A_-Rh9Ne-fYf-XfxUpkkRhMVeX6eu-iyFzimJXL938sTsJlgDHX2gft5iTSas7OwWSeulGTozIDohdYAawK" 
+        frameborder="0" 
+        scrolling="auto" 
+        allowfullscreen 
+        style="display: block; margin: 2rem auto; max-width: 100%; box-shadow: 0 0 15px #ff80d5; border-radius: 10px;"
+      ></iframe>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
